@@ -1,7 +1,5 @@
 # British Auction in Request for Quotation (RFQ) System
 
-> **College Assignment Submission**  
-> **Course / Project:** Enterprise Reverse Auction & Procurement System  
 > **Deliverables Included:** HLD with Architecture Diagram, Database Schema Design with ER Diagram, Backend Source Code, Frontend Source Code.
 
 ---
