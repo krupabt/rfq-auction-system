@@ -36,7 +36,7 @@ class NumberedCanvas(canvas.Canvas):
         
         # Header (on all pages except page 1)
         if self._pageNumber > 1:
-            self.drawString(54, letter[1] - 34, "British Auction in RFQ System — Submission Documentation")
+            self.drawString(54, letter[1] - 34, "British Auction in RFQ System - Submission Documentation")
             self.setStrokeColor(colors.HexColor("#E5E7EB"))
             self.setLineWidth(0.5)
             self.line(54, letter[1] - 38, letter[0] - 54, letter[1] - 38)
@@ -44,7 +44,7 @@ class NumberedCanvas(canvas.Canvas):
         # Footer (on all pages)
         page_text = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(letter[0] - 54, 28, page_text)
-        self.drawString(54, 28, "Confidential — Academic Project Submission")
+        self.drawString(54, 28, "British Auction in RFQ System")
         self.setStrokeColor(colors.HexColor("#E5E7EB"))
         self.setLineWidth(0.5)
         self.line(54, 38, letter[0] - 54, 38)
@@ -170,8 +170,8 @@ def build_hld_pdf(output_path="docs/HLD.pdf"):
     story = []
     
     # ---------------- PAGE 1 ----------------
-    story.append(Paragraph("High-Level Design (HLD) Document", styles['DocTitle']))
-    story.append(Paragraph("British Auction in Request for Quotation (RFQ) System &nbsp;|&nbsp; Deliverable 1", styles['DocSubtitle']))
+    story.append(Paragraph("High-Level Design - British Auction in RFQ System", styles['DocTitle']))
+    story.append(Paragraph("System Architecture, Anti-Sniping Engine & API Specifications", styles['DocSubtitle']))
     
     meta_table_data = [
         [
@@ -421,8 +421,8 @@ def build_db_schema_pdf(output_path="docs/Database_Schema.pdf"):
     story = []
     
     # ---------------- PAGE 1 ----------------
-    story.append(Paragraph("Database Schema Design Document", styles['DocTitle']))
-    story.append(Paragraph("British Auction in Request for Quotation (RFQ) System &nbsp;|&nbsp; Deliverable 2", styles['DocSubtitle']))
+    story.append(Paragraph("Database Schema Design - British Auction in RFQ System", styles['DocTitle']))
+    story.append(Paragraph("Entity-Relationship (ER) Diagram & Relational Data Dictionary", styles['DocSubtitle']))
     
     meta_table_data = [
         [

@@ -1,4 +1,4 @@
-# High-Level Design (HLD) - British Auction RFQ Management System
+# High-Level Design – British Auction in RFQ System
 
 ## 1. Executive Overview
 
