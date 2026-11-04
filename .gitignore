@@ -83,3 +83,5 @@ backend/*.sqlite3
 ehthumbs.db
 Thumbs.db
 desktop.ini
+
+.vercel
