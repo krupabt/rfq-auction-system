@@ -3,6 +3,8 @@
 ## About the Project
 This project is a simple RFQ (Request for Quotation) system with a British Auction feature. Buyers can create RFQs, and suppliers can submit their quotations. The system compares the quotes and displays supplier rankings based on the lowest price.
 
+Live demo:- https://gocomet-rfq-auction.vercel.app
+
 ## Features
 - User login with Admin, Buyer and Supplier roles.
 - Create and manage RFQs.
